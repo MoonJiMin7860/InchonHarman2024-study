@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+/.vs
+/4강/.vs/4강
+/4강/x64/Debug
+/test01/.vs/test01
+/test01/x64/Debug
+/test01/test01/x64
