@@ -2,7 +2,7 @@
 
 int test01();		//함수의 prototype
 void test02(int a); //문자열과 문자배열
-
+// 깃허브에서 해당 문자를 입력했습니다.
 main()
 {
 	//test01;
