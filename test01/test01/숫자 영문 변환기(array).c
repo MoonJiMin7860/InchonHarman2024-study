@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int test01();		//ÇÔ¼öÀÇ prototype
-void test02(int a); //¹®ÀÚ¿­°ú ¹®ÀÚ¹è¿­
+int test01();		//í•¨ìˆ˜ì˜ prototype
+void test02(int a); //ë¬¸ìì—´ê³¼ ë¬¸ìë°°ì—´
 
 main()
 {
@@ -11,14 +11,14 @@ main()
 int test01()
 {
 	char* str[] = { "Zero","one","Two","Theree","Four","Five","Six","Seven","Eight","Nine" };
-	//¹®ÀÚ¿­ Æ÷ÀÎÅÍ
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä!\n");
+	//ë¬¸ìì—´ í¬ì¸í„°
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”!\n");
 	int n = 1;
 	while (n)
 	{
 		printf(">");
 		char a = getch();
-		int m = a - 0x30; //Ascll ->num(Ascii °ªÀ» ³Ñ¹ö°ªÀ¸·Î ±³Ã¼)
+		int m = a - 0x30; //Ascll ->num(Ascii ê°’ì„ ë„˜ë²„ê°’ìœ¼ë¡œ êµì²´)
 		printf("%c: %s\n", a, str[m]);
 
 	}
@@ -27,7 +27,7 @@ int test01()
 void test02(int a)
 {
 	char ca[] = "Hello"; // ca[0]: 'H' ... ca[4]: 'o' ca[5]: \o
-	for (int i = 0; i < 10; i++) //3°¡Áö ¿ä¼Ò ÀÔ·Â , 0~5±îÁö i°ªÀÌ º¯µ¿
+	for (int i = 0; i < 10; i++) //3ê°€ì§€ ìš”ì†Œ ì…ë ¥ , 0~5ê¹Œì§€ iê°’ì´ ë³€ë™
 	{
 		printf("ca[%d]: %c(%02x)\n", i, ca[i], ca[i]);
 	}
